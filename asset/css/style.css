@@ -29,6 +29,21 @@ h1 {
     background-color: #0F0E17;
     box-shadow: 0px 0px 10px 3px gray;
 }
+.card::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.foto::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.data::after {
+    content: '';
+    clear: both;
+    display: table;
+}
 .card-sx {
     float: left;
 }
@@ -42,14 +57,18 @@ h1 {
 }
 img {
     height: 80px;
-    width: 30%;
+}
+.foto {
+    width: 80px;
     float: left;
 }
 .data {
     height: 80px;
-    width: 70%;
+    width: calc(100% - 80px);
     float: right;
-    padding: 10px 20px;   
+    padding-top: 10px;
+    padding-left: 10px;
+    
 }
 .white {
     color: white;
@@ -63,4 +82,5 @@ a {
     color: #62D5F2;
     text-decoration: none;
 }
+
 
