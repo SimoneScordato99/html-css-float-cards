@@ -1,0 +1,43 @@
+* {
+    font-family: 'Fredoka One', cursive;
+}
+.center {
+    width: 70%;
+    margin: 0 auto;
+
+}
+h1 {
+    text-align: center;
+    margin: 20px;  
+    color: #E53170;
+}
+p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.container {
+    padding: 20px 0;
+}
+.container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.card {
+    width: 30%;
+    height: 80px;
+    background-color: #0F0E17;
+}
+.card-sx {
+    float: left;
+}
+.card-center {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-dx {
+    float: left;
+}
+
